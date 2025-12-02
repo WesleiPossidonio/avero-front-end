@@ -1,12 +1,12 @@
-import { Carousel, CarouselContent, CarouselItem } from "../../../../components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
-import ImageColcci from '../../../../assets/Colcci.svg'
-import ImageFórum from '../../../../assets/Fórum.svg'
-import ImageLacoste from '../../../../assets/Lacoste.svg'
-import ImageLança from '../../../../assets/Lança Perfume.svg'
-import ImageOsklen from '../../../../assets/Osklen.svg'
-import ImageReserva from '../../../../assets/Reserva.svg'
-import ImageSchutz from '../../../../assets/Schutz.svg'
+import ImageColcci from '@/assets/Colcci.svg'
+import ImageFórum from '@/assets/Fórum.svg'
+import ImageLacoste from '@/assets/Lacoste.svg'
+import ImageLança from '@/assets/Lança Perfume.svg'
+import ImageOsklen from '@/assets/Osklen.svg'
+import ImageReserva from '@/assets/Reserva.svg'
+import ImageSchutz from '@/assets/Schutz.svg'
 
 import Autoplay from "embla-carousel-autoplay";
 

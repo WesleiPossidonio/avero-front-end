@@ -1,7 +1,7 @@
-import { Button } from "../../../../components/ui/button"
+import { Button } from "@/components/ui/button"
 
-import ImageCircle from '../../../../assets/circle.svg'
-import ImageLoja from '../../../../assets/Loja.png'
+import ImageCircle from '@/assets/circle.svg'
+import ImageLoja from '@/assets/Loja.png'
 
 export const StoreMap = () => {
   return (

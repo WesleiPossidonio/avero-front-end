@@ -1,10 +1,10 @@
 import { Accordion } from "@radix-ui/react-accordion"
 
 import { useState } from "react"
-import { AccordionContent, AccordionItem, AccordionTrigger } from "../../../../components/ui/accordion";
-import { Slider } from "../../../../components/ui/slider";
-import { Button } from "../../../../components/ui/button";
-import { Checkbox } from "../../../../components/ui/checkbox";
+import { AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Slider } from "@/components/ui/slider";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
 
 export const Aside = () => {
   const [price, setPrice] = useState([100, 400]);

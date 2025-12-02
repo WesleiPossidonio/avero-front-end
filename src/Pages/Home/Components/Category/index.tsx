@@ -1,16 +1,16 @@
 
 import { useState } from "react";
-import Img1 from "../../../../assets/01.jpg";
-import Img2 from "../../../../assets/02.jpg";
-import Img3 from "../../../../assets/03.jpg";
-import Img4 from "../../../../assets/04.jpg";
+import Img1 from "@/assets/01.jpg";
+import Img2 from "@/assets/02.jpg";
+import Img3 from "@/assets/03.jpg";
+import Img4 from "@/assets/04.jpg";
 
-import MasculinoImg1 from "../../../../assets/Masculino01.jpg";
-import MasculinoImg2 from "../../../../assets/Masculino02.jpg";
-import MasculinoImg3 from "../../../../assets/Masculino03.jpg";
-import MasculinoImg4 from "../../../../assets/Masculino04.jpg";
+import MasculinoImg1 from "@/assets/Masculino01.jpg";
+import MasculinoImg2 from "@/assets/Masculino02.jpg";
+import MasculinoImg3 from "@/assets/Masculino03.jpg";
+import MasculinoImg4 from "@/assets/Masculino04.jpg";
 
-import ImgAvero from '../../../../assets/Layer 2.svg'
+import ImgAvero from '@/assets/Layer 2.svg'
 
 export const Category = () => {
   const [category, setCategory] = useState('Feminino')

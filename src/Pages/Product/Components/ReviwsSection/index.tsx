@@ -1,13 +1,13 @@
 
 import { Star } from "lucide-react";
-import { Button } from "../../../../components/ui/button";
-import { Separator } from "../../../../components/ui/separator";
+import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger
-} from "../../../../components/ui/dropdown-menu";
+} from "@/components/ui/dropdown-menu";
 
 interface Review {
   id: number;

@@ -1,5 +1,5 @@
 import { Heart } from "lucide-react";
-import { useProduct } from "../../../../hooks/useProduct";
+import { useProduct } from "@/hooks/useProduct";
 import { useNavigate } from "react-router-dom";
 
 export const BestSelling = () => {

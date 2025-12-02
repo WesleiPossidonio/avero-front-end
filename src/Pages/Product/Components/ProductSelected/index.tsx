@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Minus, Plus, RulerIcon, Star } from "lucide-react";
-import { Button } from "../../../../components/ui/button";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../../../components/ui/tabs";
-import { Input } from "../../../../components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Input } from "@/components/ui/input";
 
-import Image from "../../../../assets/Image.svg"
-import type { GetProductProps } from "../../../../Contexts/ProductContext";
-import { useProduct } from "../../../../hooks/useProduct";
-import { Carousel, CarouselContent, CarouselItem } from "../../../../components/ui/carousel";
+import Image from "@/assets/Image.svg"
+import type { GetProductProps } from "@/Contexts/ProductContext";
+import { useProduct } from "@/hooks/useProduct";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 const gallery = [
   "/images/prod1.jpg",
   "/images/prod2.jpg",

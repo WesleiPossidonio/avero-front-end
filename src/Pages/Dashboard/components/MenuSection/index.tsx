@@ -1,6 +1,6 @@
-import { Button } from '../../../../components/ui/button';
+import { Button } from '@/components/ui/button';
 import { ShoppingCart, Heart, Truck, Key, User, LogOut } from 'lucide-react';
-import { Carousel, CarouselContent, CarouselItem } from '../../../../components/ui/carousel';
+import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 
 const menuItems = [
   { icon: ShoppingCart, label: 'Pedidos', links: 'pedidos' },

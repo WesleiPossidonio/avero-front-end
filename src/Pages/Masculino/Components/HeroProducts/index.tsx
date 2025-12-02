@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../../../components/ui/select";
-import { useProduct } from "../../../../hooks/useProduct";
-import type { GetProductProps } from "../../../../Contexts/ProductContext";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { useProduct } from "@/hooks/useProduct";
+import type { GetProductProps } from "@/Contexts/ProductContext";
 import { useNavigate } from "react-router-dom";
 import { AsideMobile } from "../AsideMobile";
 

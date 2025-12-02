@@ -1,13 +1,13 @@
-import Banner1 from '../../../../assets/Banner1.jpg'
-import Banner2 from '../../../../assets/Banner2.jpg'
-import Banner3 from '../../../../assets/Banner3.jpg'
-import BannerMobile1 from '../../../../assets/BannerMobile1.jpg'
-import BannerMobile2 from '../../../../assets/BannerMobile2.jpg'
-import BannerMobile3 from '../../../../assets/BannerMobile3.jpg'
+import Banner1 from '@/assets/Banner1.jpg'
+import Banner2 from '@/assets/Banner2.jpg'
+import Banner3 from '@/assets/Banner3.jpg'
+import BannerMobile1 from '@/assets/BannerMobile1.jpg'
+import BannerMobile2 from '@/assets/BannerMobile2.jpg'
+import BannerMobile3 from '@/assets/BannerMobile3.jpg'
 
 import Autoplay from "embla-carousel-autoplay"
-import { Carousel, CarouselContent, CarouselItem } from "../../../../components/ui/carousel"
-import { Button } from '../../../../components/ui/button'
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel"
+import { Button } from '@/components/ui/button'
 
 const DataHero = [
   {

@@ -1,13 +1,13 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState, useEffect } from "react";
 
-import Img1 from "../../../../assets/01.jpg";
-import Img2 from "../../../../assets/02.jpg";
-import Img3 from "../../../../assets/03.jpg";
-import Img4 from "../../../../assets/04.jpg";
+import Img1 from "@/assets/01.jpg";
+import Img2 from "@/assets/02.jpg";
+import Img3 from "@/assets/03.jpg";
+import Img4 from "@/assets/04.jpg";
 
 import Autoplay from "embla-carousel-autoplay";
-import { Carousel, CarouselContent, CarouselItem } from "../../../../components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
 interface Item {
   name: string;

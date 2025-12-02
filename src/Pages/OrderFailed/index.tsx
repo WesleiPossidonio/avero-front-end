@@ -1,5 +1,5 @@
-import { Button } from "../../components/ui/button"
-import ImageBox from "../../assets/BoxFailed.svg"
+import { Button } from "@/components/ui/button"
+import ImageBox from "@/assets/BoxFailed.svg"
 
 export const OrderFailed = () => {
   return (
