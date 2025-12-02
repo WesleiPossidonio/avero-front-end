@@ -101,7 +101,7 @@ export const Hero = () => {
               ) : (
                 <div className={`ml-[1%]`}>
                   <h1
-                    className={`text-5xl lg:text-7xl font-outfit leading-tight ${data.id === 2 ? "text-black" : "text-neutral-200"}`}
+                    className={`text-[2.50rem] lg:text-7xl font-outfit leading-tight ${data.id === 2 ? "text-black" : "text-neutral-200"}`}
                     dangerouslySetInnerHTML={{ __html: data.title }}
                   />
 
