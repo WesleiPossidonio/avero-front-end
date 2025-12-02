@@ -28,10 +28,6 @@ export interface GetProductProps {
 export interface addProductToCartProps extends GetProductProps {
   quantity: number
 }
-
-
-
-
 interface ProductContextType {
   listProducts: GetProductProps[]
   listProductToCart: addProductToCartProps[]

@@ -57,7 +57,7 @@ export const Hero = () => {
               <img
                 src={data.desktop}
                 alt={data.alt}
-                className="w-full h-[47.875rem] object-cover"
+                className="w-full h-svh md:h-[47.875rem] object-cover"
               />
             </picture>
 

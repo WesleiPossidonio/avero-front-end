@@ -8,7 +8,7 @@ export const CallAction = () => {
       style={{ backgroundImage: `url(${Image})` }}
     >
       <div>
-        <h1 className='text-4xl p-4 text-center md:text-6xl text-white'>
+        <h1 className='text-3xl p-4 text-center md:text-6xl text-white'>
           Exclusividade que transforma o seu estilo.
         </h1>
       </div>
