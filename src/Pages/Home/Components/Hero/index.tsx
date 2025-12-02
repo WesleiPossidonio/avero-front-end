@@ -65,7 +65,7 @@ export const Hero = () => {
             <div
               className={`relative z-10 h-full flex flex-col items-start px-6 md:px-16
                 ${data.id === 2
-                  ? 'justify-end pb-16 md:justify-center md:pb-0'
+                  ? 'justify-end pb-28 md:justify-center md:pb-0'
                   : 'justify-start pt-16 md:justify-center md:pt-0'
                 }`}
             >
@@ -101,7 +101,7 @@ export const Hero = () => {
               ) : (
                 <div className={`ml-[1%]`}>
                   <h1
-                    className={`text-4xl lg:text-7xl font-outfit leading-tight ${data.id === 2 ? "text-black" : "text-neutral-200"}`}
+                    className={`text-5xl lg:text-7xl font-outfit leading-tight ${data.id === 2 ? "text-black" : "text-neutral-200"}`}
                     dangerouslySetInnerHTML={{ __html: data.title }}
                   />
 
